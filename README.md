@@ -14,8 +14,15 @@
 
 ## Installation
 
-1. **Install required Python packages**:
+1. **Install required packages**:
    ```bash
-   pip install requests pyfiglet
+   apt install git -y
+   or pkg install git -y for termux
+   pip install requests pyfiglet subprocess socket
+2. **Launch tool**
+   ```
+   git clone https://github.com/midotech1/AP-TOOL.git
+   cd AP-TOOL
+   python aptool.py
 ## Disclamer
 This tool is intended only for educational and ethical hacking purposes. Do not use it to target systems without proper authorization. The developer assumes no responsibility for any misuse or
